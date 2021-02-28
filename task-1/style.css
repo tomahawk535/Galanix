@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.ua-flag {
+    margin: 1rem;
+    width: 300px;
+    height: 200px;
+    background:  linear-gradient( to bottom, blue 50%, yellow 50%);
+    border: 1px solid grey;
+}
+
+.jap-flag {
+    margin: 1rem;
+    width: 300px;
+    height: 200px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    border: 1px solid grey;
+}
+.circle {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: red;
+    margin: 0 auto;
+    align-self: center;
+}
+
+.chez-flag {
+    margin: 1rem;
+    width: 300px;
+    height: 200px;
+    background: linear-gradient(to bottom, #fff 50%, red 50%);
+    border: 1px solid grey;
+    position: relative;
+
+}
+.chez-flag::after {
+    content: "";
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        border: 100px solid transparent; 
+        border-left: 100px solid BLUE;
+}
+.iceland{
+    margin: 1rem;
+    width: 300px;
+    height: 200px;
+    background: linear-gradient(blue,blue) 0 0 /50px 85px,
+                linear-gradient(blue,blue) 0 100%   /50px 75px,
+                linear-gradient(blue,blue) 100% 0   /205px 85px,
+                linear-gradient(blue,blue) 100% 100%/205px 75px,
+    
+                linear-gradient(red,red)   60px 0/ 25px 100%,
+                linear-gradient(red,red)   0 95px/ 100% 20px;
+    background-repeat: no-repeat;
+    border: 1px solid grey;
+}
